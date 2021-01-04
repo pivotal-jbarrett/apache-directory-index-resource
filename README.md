@@ -1,7 +1,7 @@
 # Apache Directory Index Resource
 
-[![Docker Build](https://img.shields.io/docker/cloud/build/mastertinner/apache-directory-index-resource.svg?style=flat-square)](https://hub.docker.com/r/mastertinner/apache-directory-index-resource)
-![Docker Pulls](https://img.shields.io/docker/pulls/mastertinner/apache-directory-index-resource.svg?style=flat-square)
+[![Docker Build](https://img.shields.io/docker/cloud/build/jakepivotal/apache-directory-index-resource.svg?style=flat-square)](https://hub.docker.com/r/jakepivotal/apache-directory-index-resource)
+[![Docker Pulls](https://img.shields.io/docker/pulls/jakepivotal/apache-directory-index-resource.svg?style=flat-square)](https://hub.docker.com/r/jakepivotal/apache-directory-index-resource)
 
 A Concourse resource for the Apache Directory Index.
 
@@ -12,7 +12,7 @@ resource_types:
   - name: apache-directory-index
     type: docker-image
     source:
-      repository: mastertinner/apache-directory-index-resource
+      repository: jakepivotal/apache-directory-index-resource
 
 resources:
   - name: tomcat-8
